@@ -19,8 +19,10 @@ The purpose of this project was to get familiar with React Hooks and Context API
 ### Getting Started
 
 Click the demo link or clone/download the repository on your local machine.
-Create a config.js file in api folder inside src folders. In config.js file write
-`export const apiKey = "YOUR_FLIKR_API_KEY";`
+Create a .env file in the project's root folder (/SnapShot), then copy the following line into it:
+`REACT_APP_API_KEY = YOUR_FLIKR_API_KEY;`
+
+
 
 ##### Install dependencies
 
